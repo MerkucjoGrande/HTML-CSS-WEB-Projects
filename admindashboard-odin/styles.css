@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+*{
+    font-family: Poppins;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: whitesmoke;
+}
+#header{
+background-color: white;
+margin-left: 500px;
+padding: 40px;
+}
+.header-grid{
+    display: grid;
+    grid-template-rows:50px 50px;
+    grid-template-columns: 80% 20%;
+    gap: 15px;
+}
+.material-symbols-outlined{
+    position: relative;
+    top: 10px;
+}
+.material-symbols-outlined:hover {
+    color: black;
+    cursor: pointer;
+}
+.left-top-header{
+margin-left: 30px;
+}
+.search{
+    border: none;
+    border-radius: 15px;
+    background-color: lightgray;
+    width: 55%;
+    height: 20px;
+    margin: 7px;
+}
+.material-symbols-outlined {
+    font-size: 40px !important;
+}
+.left-bot-header {
+margin-left: 30px;
+margin-bottom: 15px;
+font-size: 25px;
+}
+.right-top-header{
+display: flex;
+justify-content: space-around;
+font-size: 25px;
+}
+.right-bot-header{
+margin-top: 15px;
+}
+.header-button{
+border: none;
+color: whitesmoke;
+font-family: Poppins;
+border-radius: 15px;
+background-color: black;
+padding: 5px;
+margin: 10px;
+width: 25%;
+cursor: pointer;
+}
+.header-button:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+h5, h6  {
+    display: inline;
+    padding: 5px;
+}
+.name{
+    position: relative;
+    top: 10px;
+}
+#nav{
+    background-color: #60a5fa;
+    width: 500px;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    color: whitesmoke;
+    font-size: 20px !important;
+}
+.nav-grid{
+    grid-template-columns: 500px;
+    grid-template-rows: 100px;
+}
+.dash{
+    margin: 15px 20px;
+    font-size: 30px !important;
+}
+.nav-top{
+    margin: 15px 20px;
+}
+h4{
+    margin-left: 500px;
+        padding: 15px;
+}
+.content-grid{
+display: inline-grid;
+grid-template: 150px 150px 150px / 1150px 1150px;
+margin-left: 15px;
+gap: 20px;
+}
+.grid-item{
+    padding: 10px;
+    margin-left: 500px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+.grid-item2{
+    padding: 10px;
+    margin-left: 0px;
+    margin-right: 500px;
+    background-color: white;
+    border-radius: 15px;
+}
+h6{
+    font-size: 14px;
+}
+p{
+    font-size: 13px;
+}
+.right-top-main{
+position: absolute;
+right: 250px;
+top: 195px;
+}
+.news{
+    position: absolute;
+    right: -210px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+}
+.divider {
+    width: 350px;
+    height: 1px;
+    background-color: gray;
+    margin: 5px 0;
+}
+h4{
+    font-size: 20px;
+}
