@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+}
+body::-webkit-scrollbar {
+    width: 0.55rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: #000;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #1f2937;
+}
+*{
+font-family: 'Poppins';
+color: whitesmoke;
+}
+#header{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+    font-size: 18px;}
+
+.material-symbols-outlined{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: whitesmoke;
+    font-size: 40px !important;
+    cursor: default;
+}
+
+.link{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px;
+text-transform: uppercase;
+letter-spacing: 0.15em;
+display: inline-block;
+padding: 15px 20px;
+position: relative;
+}
+.link:after {
+background: none repeat scroll 0 0 transparent;
+content: "";
+display: block;
+height: 1px;
+right: 50%;
+position: relative;
+background: whitesmoke;
+transition: width 0.3s ease 0s,
+right 0.3s ease 0s;
+width: 0;
+}
+.link:hover::after{
+width: 100%;
+right: 0;
+}
+#flex-up {
+    background-color: #1f2937;
+    display: flex;
+    
+}
+#text-for-flex-up{
+padding: 50px;
+padding-left: 150px;
+}
+.img{
+    width: 450px;
+    border-radius: 55px;
+padding: 50px;
+
+}
+.button{
+    border: 1.5px solid whitesmoke;
+    color: whitesmoke;
+    background-color: #3882F6;
+    border-radius: 2px;
+    width: 100px;
+    padding: 5px;
+    cursor: pointer;
+    
+}
+.square-section{
+    background-color: white;
+
+}
+.color-b{
+    color: black;
+}
+#square-header{
+    color: black;
+    text-align: center;
+}
+
+.content-info {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.content-info img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+    margin: 5px 20px 0px 20px;
+}
+#quote{
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: black;
+    height: 500px;
+    text-align: center;
+    padding-top: 450px;
+    margin: 0;
+    width: 100%;
+}
+.time{
+    background-color: #3882F6;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    align-items: center;
+
+
+}
+
+.button-time{
+    border: 1.5px solid whitesmoke;
+    color: whitesmoke;
+    background-color: #3882F6;
+    border-radius: 2px;
+    width: 100px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#footer{
+    background-color: #1f2937;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
