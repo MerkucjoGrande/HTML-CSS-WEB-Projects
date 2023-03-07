@@ -1,0 +1,9 @@
+.material-symbols-outlined {
+    transition: transform 0.4s;
+    color: #1f2937;
+    margin: 15px;
+    font-size: 40px !important;
+}
+.material-symbols-outlined:hover {
+    transform: rotate(360deg);
+}
