@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+	<script src="https://cdn.tailwindcss.com"></script>
+	<link rel="shortcut icon" href="https://facebook.com/favicon.ico" type="image/x-icon">
+
+	<title >Sign up for Facebook | Facebook</title>
+
+</head>
+
+<body class="bg-[#f0f8fb] flex flex-col justify-center items-center h-96 ">
+    <img src="./assets/facebook-logo.png" alt="" class="h-40 w-80" style="margin-top: 303px;">
+    <main class="bg-[#ffffff] p-3 rounded shadow-md">
+    <div class="bg-[#ffffff] text-center">
+	<h1 class="text-2xl font-bold">Create a new account</h1>
+    <h2 class="">It's quick and easy.</h2> <br>
+    <hr> 
+    </div>
+    <form action="" class="flex flex-col">
+        <div class="py-2">
+        <input type="name" id="name" placeholder="First name" class="rounded border-2 border-solid border-gray-200 mr-1 py-1">
+        <input type="lasstname" name="" id="" placeholder="Surname" class="rounded border-2 border-solid border-gray-200 py-1"> 
+        </div>
+        <input type="email" placeholder="Mobile number or email address" class="rounded border-2 border-solid border-gray-200 py-1 mb-2">
+        <input type="password" placeholder="New password" class="rounded border-2 border-solid border-gray-200 py-1" pattern="\d{1,2}/\d{1,2}/\d{4}" placeholder="dd/mm/yyyy">
+        <h6 class="text-gray mb-1">Date of Birth</h6>
+        <input type="date"  class="rounded border-2 border-solid border-gray-300 py-1 mb-1">
+        <h6 class="mb-1">Gender</h6>
+        <div class="flex justify-around ">
+        <label for="option1" class="rounded py-1 px-2  border-2 border-solid border-gray-200 flex items-center flex-row-reverse ">
+  <input type="radio" name="option" value="option1" class="float-right " id="option1">
+   <span class="mr-5">Female</span>
+</label>
+<label class="rounded py-1 px-2 border-2 border-solid border-gray-200  flex items-center flex-row-reverse">
+  <input type="radio" name="option" value="option2" class="float-right" >
+  <span class="mr-7">Male</span>
+</label>
+<label class="rounded py-1 px-2 border-2 border-solid border-gray-200 flex items-center flex-row-reverse">
+  <input type="radio" name="option" value="option3" class="float-right" >
+   <span class="mr-5">Custom</span>
+</label>
+</div>
+</form>
+        <p class="text-gray-500 text-xs">People who use our service may have uploaded your contact information <br> to Facebook. <a href="" class="text-blue-700"> Learn more.</a></p> <br>
+        <p class="text-gray-500 text-xs">By clicking Sign Up, you agree to Terms, <a href="" class="text-blue-700">Data,Policy</a> and <a href="" class="text-blue-700">Cookie Policy</a>. You <br> may receive SMS notifications from us and can opt out at any time.</p> <br>
+        
+        <div class="text-center">
+        <button value="Sign Up" class="bg-[#00a400] hover:bg-[#1c930f] font-bold text-white rounded px-14 py-1">Sign Up</button> <br> <br>
+        </div>
+    <footer class="text-center">
+        <a href="" class="text-blue-700 font-normal">Already have an account?</a>
+        </footer>
+        </main>
+</body>
+
+</html>
